@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  difficulty: MyString
+  duck: MyString
+  points: 1
+
+two:
+  difficulty: MyString
+  duck: MyString
+  points: 1
