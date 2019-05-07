@@ -8,8 +8,8 @@
 
 
 #------------------------------(DUCKS)---------------------------------------
-yellow_duck = Category.create(difficulty: "easy", duck:'/BERubberDuckDebugging/ducks/yellow.png' , points: 2)
-red_duck = Category.create(difficulty: "hard", duck:'BERubberDuckDebugging/ducks/red.png', points: 5)
+yellow_duck = Category.create(difficulty: "easy", duck:'../BERubberDuckDebugging/ducks/yellow.png' , points: 2)
+red_duck = Category.create(difficulty: "hard", duck:'../BERubberDuckDebugging/ducks/red.png', points: 5)
 #----------------------------------------------------------------------------
 
 
