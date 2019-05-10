@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
 #
@@ -6,12 +8,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-
 #------------------------------(DUCKS)---------------------------------------
-yellow_duck = Category.create(difficulty: "easy", duck:'../BERubberDuckDebugging/ducks/yellow.png' , points: 2)
-red_duck = Category.create(difficulty: "hard", duck:'../BERubberDuckDebugging/ducks/red.png', points: 5)
+yellow_duck = Category.create(difficulty: 'easy', duck: '../BERubberDuckDebugging/ducks/yellow.png', points: 2)
+red_duck = Category.create(difficulty: 'hard', duck: '../BERubberDuckDebugging/ducks/red.png', points: 5)
 #----------------------------------------------------------------------------
-
 
 #--------------------------------(EASY-WORDS)-----------------------------------
 Word.create(code:"@name", category_id: yellow_duck.id)
